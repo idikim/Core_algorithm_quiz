@@ -1,7 +1,8 @@
 class Solution {
   int strStr(String haystack, String needle) {
-    if (needle.isEmpty) return 0;
-
-    return haystack.indexOf(needle);
+    for (int i = 0; i < haystack.length; i++) {
+      return haystack.indexOf(needle);
+    }
+    return -1;
   }
 }
