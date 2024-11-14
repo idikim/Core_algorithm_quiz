@@ -6,3 +6,8 @@ class Solution {
     return String.fromCharCode(charSumT - charSumS);
   }
 }
+
+void main() {
+  Solution solution = Solution();
+  print(solution.findTheDifference('verygood', 'verygoodu'));
+}
